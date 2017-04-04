@@ -1,0 +1,101 @@
+html {
+  font: 100%/1.15 serif;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  }
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+  font-family: arial;
+  text-align: left;
+  color: #ddd
+
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #eee;
+  color: #aaa;
+}
+
+.max-width {
+  max-width: 58em; /* 58em + 1em + 1em = 60em */
+  padding: 0 1em;
+  margin: 0 auto;
+  }
+
+/* banner / hero */
+
+#banner {
+  background-color: #999;
+  background-image:url(../img/az_img_horoscope_leo.jpg);
+  background: #999 url("../img/az_img_horoscope_leo.jpg")
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 5% 0;
+  }
+
+#banner h1 {
+  display: inline-block;
+  font: bold 3em/1.15 "Georgia", serif;
+  color: #eee;
+  background: #666;
+  background: rgba(0, 0, 0, .3);
+  padding: .3em;
+  !border-top: 2px solid #999;
+  !border-bottom: 2px solid #999;
+  }
+
+@media (min-width: 48em) {
+
+  #banner {
+    text-align: center;
+    }
+
+  #banner h1 {
+    font-size: 3.3em;
+    }
+
+  }
+
+/* main / content */
+
+main {
+  font-family: Arial, sans-serif;
+  }
+
+main p {
+  line-height: 1.45;
+  }
+
+@media (min-width: 48em) {
+
+  main h1 {
+    font-size: 2.5em;
+    }
+
+  main p {
+    font-size: 1.2em;
+    line-height: 1.65;
+    }
+
+  }
